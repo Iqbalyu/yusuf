@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Toko Sepatu</title>
+</head>
+<body>
+    <header>
+        <h1>Toko Sepatu</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di Toko Sepatu Kami!</h2>
+            <p>Temukan sepatu terbaik untuk Anda.</p>
+        </section>
+
+        <section id="produk">
+            <h2>Produk Kami</h2>
+            <div class="produk-container">
+                <div class="produk">
+                    <img src="images/sepakku1.jpg" alt="Sepatu 1">
+                    <h3>Sepatu 1</h3>
+                    <p>Harga: Rp. 500.000</p>
+                    <button onclick="tambahKeranjang('Sepatu 1')">Tambah ke Keranjang</button>
+                </div>
+                <div class="produk">
+                    <img src="images/sepakku2.jpg" alt="Sepatu 2">
+                    <h3>Sepatu 2</h3>
+                    <p>Harga: Rp. 600.000</p>
+                    <button onclick="tambahKeranjang('Sepatu 2')">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak Kami</h2>
+            <p>Email: info@tokosepatu.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Sepatu. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
